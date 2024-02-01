@@ -9,8 +9,29 @@
 <body>
     <center>
         <h1>Vaatekauppa</h1>
-        <div id="footer"></div>
+        <div id="footer"></div><br>
+        <input id="pin" type="password" placeholder="Syötä pinkoodi"/>
+        <button id="login" onclick="login()">Login</button>
+        <button id="logout" style="visibility: hidden;" onclick="logout()">Logout</button>
+        <br><br>
+        <button id="tuotenappi" disabled onclick="getVaatteet()">tuotteet</button>
+        <div id="root"></div>
     </center>
-   <script src="index.js"/>
+   <script src="index.js">
+
+// await fetchData() {
+// var x = `<table><thead><th>ID</th><th>Kategoria</th><th>Nimike</th><th>hinta</th></thead><tbody>`
+// const response = await fetch("http://localhost:3000/vaatteet")
+// const vaatedata = await response.json()
+// await vaatedata.map(h => { 
+// x += `<tr><td>${h.id}</td><td>${h.kategoria}</td><td>${h.nimike}</td><td>${h.hinta}</td></tr>`
+// })
+// x += `</tbody></table>`
+// document.getElementById("sisältö").innerHTML = x
+// }
+
+//Vaatedtan haku
+
+</script>
 </body>
 </html>

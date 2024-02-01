@@ -1,0 +1,22 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 50%;
+    border: 1px solid #ddd;
+}
+            
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+          
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+#valikot1 {
+    border: 1px solid black;
+    margin-bottom: 15px;
+    width: 50%;
+  }
+  
